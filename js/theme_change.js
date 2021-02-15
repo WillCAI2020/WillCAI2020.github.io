@@ -1,0 +1,1 @@
+function theme_change(){var e=document.getElementById("theme_change");new RegExp("🌞","i").test(e.innerHTML)?e.innerHTML="🌙":e.innerHTML="🌞",document.body.classList.toggle("dark-theme"),setCookie("inner",e.innerHTML,1)}
