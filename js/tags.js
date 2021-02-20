@@ -1,1 +1,0 @@
-window.onload=function(){for(var a=document.getElementsByClassName("tag-cloud-tags")[0].getElementsByTagName("a"),o=a.length-1;0<=o;o--){var t=Math.floor(75*Math.random()+130),n=Math.floor(75*Math.random()+100),e=Math.floor(75*Math.random()+80);a[o].style.background="rgb("+t+","+n+","+e+")"}};
